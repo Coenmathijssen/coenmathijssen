@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Isidora';
+    src: url('../fonts/Isidora-Bold.eot');
+    src: url('../fonts/Isidora-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Isidora-Bold.woff2') format('woff2'),
+        url('../fonts/Isidora-Bold.woff') format('woff'),
+        url('../fonts/Isidora-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Isidora', Arial, sans-serif;
+}
+
+p {
+  line-height: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+.opening-title {
+  color: $navy-blue;
+  font-size: 5rem;
+}
+
+.title-bw {
+  color: $white;
+  font-size: 3rem;
+}
+
+.title-bb {
+  color: $blue;
+  font-size: 3rem;
+}
+
+.subtitle {
+  color: $yellow;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+

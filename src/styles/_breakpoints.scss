@@ -1,0 +1,7 @@
+@mixin med {
+  @media (max-width: 940px) { @content; }
+}
+
+@mixin sm {
+  @media (max-width: 710px) { @content; }
+}

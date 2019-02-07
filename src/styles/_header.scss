@@ -1,0 +1,76 @@
+header {
+  width: 100%;
+}
+
+header {
+  .container {
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  .logo {
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    margin-left: 10px;
+  }
+}
+
+nav {
+  display: flex;
+
+  .menu-container, .login-container {
+    list-style: none;
+    display: flex;
+
+    li {
+      margin-right: 30px;
+    }
+
+    a {
+      text-decoration: none;
+      color: $white;
+    }
+  }
+
+  .menu-container {
+    margin-right: 150px;
+  }
+}
+
+
+@include med {
+  nav {
+    .menu-container {
+      margin-right: 0;
+    }
+
+    .menu-container, .login-container {
+      padding-left: 0;
+    }
+  }
+}
+
+@include sm {
+  header {
+    .logo {
+      visibility: hidden;
+    }
+  }
+
+  nav {
+    display: block;
+
+    .menu-container, .login-container {
+      flex-direction: row-reverse;
+      padding: 5px 0;
+    }
+  }
+}
+
+
