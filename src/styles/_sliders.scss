@@ -1,0 +1,61 @@
+.carousel {
+  background: $broken-white;
+}
+
+.carousel img {
+  display: block;
+  height: 200px;
+}
+
+@media screen and ( min-width: 768px ) {
+  .carousel img {
+    height: 500px;
+  }
+}
+
+
+.flickity-page-dots {
+  .dot {
+    display: inline-block;
+    width: 40px;
+    height: 4px;
+    margin: 10px 6px 0px 6px;
+    background: $blue;
+    border-radius: 0;
+
+    .is-selected {
+    background: $navy-blue;
+    }
+  }
+}
+
+.flickity-button {
+  background: rgba(255,255,255,0);
+
+  .flickity-button-icon {
+    fill: $blue;
+  }
+}
+
+.flickity-button:hover {
+  background: none;
+
+  .flickity-button-icon {
+    fill: $navy-blue;
+  }
+}
+
+.flickity-button {
+  transition: 250ms margin;
+  &:active {
+    opacity: 1;
+    &.next {
+     margin-left: 4px;
+    }
+
+    &.prev {
+     margin-right: 4px;
+    }
+  }
+}
+
