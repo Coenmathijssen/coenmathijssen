@@ -1,12 +1,12 @@
 @import 'reset';
+@import 'breakpoints';
 @import 'colors';
 @import 'sliders';
+@import 'menu';
 @import 'base';
 @import 'global';
 @import 'buttons';
-@import 'breakpoints';
 @import 'typografie';
-@import 'opening';
 
 // De verschillende pages
-@import '../pages/home';
+@import './pages/home';

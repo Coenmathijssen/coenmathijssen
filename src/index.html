@@ -76,6 +76,13 @@
         <h1 class="title-bb">Now in store</h1>
         <p> Donec sodales sagittis magna. Vivamus in erat ut urna cursus vestibulum. Ut id nisl quis enim dignissim sagittis. Suspendisse enim turpis, dictum sed, iaculis a, condimentum nec, nisi. In hac habitasse platea dictumst.
         Phasellus accumsan cursus velit. Cras varius. Nullam dictum felis eu pede mollis pretium. Nunc nulla. Suspendisse potenti. </p>
+        <a href="#" class="cta">
+          <span>See for yourself</span>
+          <svg width="13px" height="10px" viewBox="0 0 13 10">
+            <path d="M1,5 L11,5"></path>
+            <polyline points="8 1 12 5 8 9"></polyline>
+          </svg>
+        </a>
       </div>
         <img src="https://images.pexels.com/photos/364100/pexels-photo-364100.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="trees">
       </div>
@@ -84,7 +91,11 @@
     <section class="second-block">
       <h2 class="title-bb">Picture Perfect</h2>
       <div class="carousel"
-        data-flickity='{ "imagesLoaded": true, "percentPosition": false }'>
+        data-flickity='{ "imagesLoaded": true,
+        "autoPlay": true,
+        "autoPlay": 3000,
+        "wrapAround": true,
+        "percentPosition": false }'>
         <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg" alt="orange tree" />
         <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/submerged.jpg" alt="submerged" />
         <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg" alt="look-out" />
@@ -93,9 +104,63 @@
         <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/cat-nose.jpg" alt="cat nose" />
       </div>
     </section>
+
+    <section class="image-grid">
+      <h3 class="title-bb">Our Work</h3>
+       <figure>
+         <img src="https://images.pexels.com/photos/1647975/pexels-photo-1647975.jpeg?cs=srgb&dl=beach-black-sand-daylight-1647975.jpg&fm=jpg" alt="Waves crashing on  shore">
+         <span class="overlay"></span>
+         <figcaption>BEKIJK NU</figcaption>
+       </figure>
+       <figure class="two-columns">
+         <img src="https://images.pexels.com/photos/1853384/pexels-photo-1853384.jpeg?cs=srgb&dl=cold-freezing-frost-1853384.jpg&fm=jpg" alt="Snowing on road">
+         <span class="overlay"></span>
+         <figcaption>BEKIJK NU</figcaption>
+       </figure>
+       <figure class="two-columns">
+         <img src="https://images.pexels.com/photos/1850056/pexels-photo-1850056.jpeg?cs=srgb&dl=blur-close-up-depth-of-field-1850056.jpg&fm=jpg" alt="Abstract waves">
+         <span class="overlay"></span>
+         <figcaption>BEKIJK NU</figcaption>
+       </figure>
+       <figure>
+         <img src="https://images.pexels.com/photos/1650732/pexels-photo-1650732.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Surfing dude">
+         <span class="overlay"></span>
+         <figcaption>BEKIJK NU</figcaption>
+       </figure>
+       <figure>
+         <img src="https://images.pexels.com/photos/1647121/pexels-photo-1647121.jpeg?cs=srgb&dl=art-funky-graffiti-1647121.jpg&fm=jpg" alt="Graffiti">
+         <span class="overlay"></span>
+         <figcaption>BEKIJK NU</figcaption>
+       </figure>
+       <figure>
+         <img src="https://images.pexels.com/photos/1081685/pexels-photo-1081685.jpeg?cs=srgb&dl=adult-art-artwork-1081685.jpg&fm=jpg" alt="Woman">
+         <span class="overlay"></span>
+         <figcaption>BEKIJK NU</figcaption>
+       </figure>
+       <figure>
+         <img src="https://images.pexels.com/photos/1851469/pexels-photo-1851469.jpeg?cs=srgb&dl=architecture-building-concrete-1851469.jpg&fm=jpg" alt="Woman at night">
+         <span class="overlay"></span>
+         <figcaption>BEKIJK NU</figcaption>
+       </figure>
+     </section>
+
+    <section class="text-grid">
+      <div class="shadow-background"></div>
+      <div class="text-block">
+        <h3 class="title-bb">It's all about this</h3>
+        <p>Quisque rutrum. Mauris sollicitudin fermentum libero. In ut quam vitae odio lacinia tincidunt. Nam pretium turpis et arcu. Sed a libero.
+        Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh, nec pellentesque velit pede quis nunc. Donec sodales sagittis magna. Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi. Aenean massa. Nullam vel sem.</p>
+        <a href="#" class="cta">
+          <span>See for yourself</span>
+          <svg width="13px" height="10px" viewBox="0 0 13 10">
+            <path d="M1,5 L11,5"></path>
+            <polyline points="8 1 12 5 8 9"></polyline>
+          </svg>
+        </a>
+      </div>
+    </section>
+
   </main>
-
-
 
 
 </body>
